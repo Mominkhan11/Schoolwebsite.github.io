@@ -1,0 +1,352 @@
+body{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+:root{
+		--primary-color: #2B615B;
+	    --secondary-color: #30736C;
+	    font-family: colibri;
+	    
+}
+.topbar{
+	background: var(--secondary-color);
+	color: white;
+	font-family: calibri;
+}
+.topbar a{
+	color:white;
+}
+.topbar .topbarmenu span {
+	padding: 3px 11px;
+}
+.topbar .topbarmenu span i span{
+	font-family: calibri;
+	font-weight: 400;
+	font-size: 14px;
+}
+.topbar .topbarmenu span a{
+	font-family: calibri;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.navbar{
+	background: var(--primary-color);
+	
+}
+.navbar .navbar-brand img{
+	width: 200px;
+	height: 50px;
+}
+
+.navbar-toggler{
+	background: white;
+}
+.navbar-toggler-icon{
+	color: 
+}
+.d-flex{
+	/*margin-right: 80px;*/
+}
+.fa-search{
+	color: white;
+}
+.nav-item{
+	margin:0px 10px 0px 10px;
+}
+.nav-item:hover{
+	background:var(--secondary-color);
+    border-radius: 3px;
+   
+}
+.nav-link{
+  color: white!important;
+  text-transform: uppercase;
+  font-family: calibri;
+  font-weight: 500;
+
+                                       
+} 
+.navbar .d-flex{
+	margin-right: 130px;
+
+}
+           
+                               /*Header styling end*/                               
+
+
+
+                                          /*Slider */
+
+.carousel-item img{
+	height: 70vh;
+	border: 1px solid gray;
+
+}
+
+.carousel-control-prev {
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    left: 5%;
+    top: 40%;
+   }
+
+.carousel-control-next{
+	width: 50px;
+	height: 50px;
+	background: var(--primary-color);
+	border-radius: 50%;
+	right: 5%;
+	top: 40%;
+}
+.courseslide{
+	position: relative;
+	top: 100px;
+	bottom:30px;
+}
+.courseslide h1{
+	font-family: calibri;
+	font-weight: 200;
+	color: var(--primary-color);
+	margin-bottom: 40px;
+}
+.singlecourse button{
+	background:var(--secondary-color);
+	border: none;
+}
+.singlecourse button:hover{
+	background:var(--primary-color);
+}
+.singlecourse .coursetitle {
+	color: var(--primary-color);
+	font-size: 24px;
+	font-family: calibri;
+	font-weight: 400;
+}
+.singlecourse .card:hover{
+   border: 0.5px solid var(--primary-color);
+}
+.singlecourse .card-text{
+	font-size: 16px;
+	font-family: calibri;
+}
+/*Slider end*/
+
+/*COurse slider start*/
+
+
+/*COurse slider end*/
+
+
+
+/*New and events start*/
+.newsevents{
+	font-family: calibri;
+	margin-top: 15%;
+	margin-bottom: 8%;
+
+}
+.newsevents .container h1{
+	color: var(--primary-color);
+	font-weight: 200;
+	font-family: calibri;
+	margin-bottom: 30px;
+
+}
+.newsevents .events{
+	box-shadow: 0 4px 16px -3px rgb(0 , 0, 0, 0.4);
+	display: flex;
+	border-radius: 7px;
+	margin-top: 11%;
+	
+
+}
+.newsevents .events .eventleft{
+	display: flex;
+	min-width: 82px;
+	background: var(--secondary-color);
+	color: white;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 8px 0px 0px 8px;
+}
+.newsevents .events .eventleft .date{
+	font-size: 52px;
+}
+.newsevents .events .eventleft .month{
+	font-size: 16px;
+	font-weight: normal;
+}
+.newsevents .events .eventright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+    font-family: calibri;
+}
+.newsevents .col-md-4 .eventheading{
+	font-family: calibri;
+	font-size: 26px;
+	font-weight: 100;
+	color:var(--primary-color);
+}
+.newsevents .events .eventright .event-title{
+	color: var(--primary-color);
+	font-size: 18px;
+	font-weight: 100;
+	margin:18px 0px 10px 0px;
+	font-family: calibri;
+}
+
+.news .col-md-6 .card{
+	display: inline;
+	left: 35px;
+	top: -25px;
+	font-family: calibri;
+
+
+
+
+
+
+}
+.news .col-md-6 .card .card-title{
+	background: var(--secondary-color);
+	color: white;
+	font-size: 21px;
+	font-weight: 100;
+	font-family: calibri;
+	margin:0;
+	width: 275px;
+	text-align: center;
+	border-radius: 4px 4px 0px 0px;
+
+}
+/* News and events end*/
+
+
+/*About us start*/
+.aboutsection{
+	background:var(--secondary-color);
+	min-height: 260px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	
+
+
+
+
+}
+.aboutsection .container h1{
+	font-family: calibri;
+	font-weight: 200;
+
+}
+.aboutsection .container p{
+	font-family: calibri;
+	font-size:17px;
+	font-weight: 200;
+	text-align: center;
+	position: relative;
+	left: 140px;
+
+
+}
+/*About us end*/
+
+
+
+
+/*footer start*/
+.footer{
+	background: var(--primary-color);
+	color: white;
+	font-family: calibri;
+	padding-bottom: 50px;
+	margin-top: 100px;
+
+
+
+}
+.footer .container{
+	
+}
+.footer h3{
+	font-size: 24px;
+	font-family: calibri;
+	font-weight: 300;
+	margin-top: 5px;
+}
+.footer .row ul{
+	list-style: none;
+}
+.footer .row li{
+	position: relative;
+	left: -30px;
+
+}
+.footer .row li a{
+	color: white;
+	text-decoration: none;
+    display: block;
+    margin:25px 0px 10px 0px;
+    font-family: calibri;
+    font-size: 15px;
+    font-weight: 100;
+ 
+}
+.footer .socialicon a i{
+	background: white;
+	width: 40px;
+	height:40px;
+	border-radius: 50%;
+	color: var(--primary-color);
+	padding: 11px;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	transition-duration: 1s;
+
+}
+.footer .socialicon a i:hover{
+	color: white;
+	background:var(--secondary-color);
+}
+.footer .col-md-4 p{
+	font-family: calibri;
+	font-size: 15px;
+	font-weight: 100;
+    position: relative;
+    top: 15px;
+    margin-top: 18px;
+    padding-top: 10px;
+}
+.footer .col-md-4 label{
+	font-family: calibri;
+	font-size: 15px;
+	font-weight: 100;
+}
+.footer .col-md-4 input{
+	padding: 5px 55px 10px 55px;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+}
+.footer .col-md-4 button{
+	color: var(--primary-color);
+	background:white;
+	border:none;
+}
+.footer .col-md-4 button:hover{
+	color: white;
+	background:var(--secondary-color);
+
+}
+/*Footer end*/

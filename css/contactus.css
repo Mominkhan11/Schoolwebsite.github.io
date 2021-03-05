@@ -1,0 +1,82 @@
+body{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+:root{
+    --primary-color: #2B615B;
+      --secondary-color: #30736C;
+      font-family: colibri;
+      
+}
+.contactusicon i{
+	color:white;
+	background: var(--secondary-color);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 30px;
+	margin: 30px;
+
+
+}
+.row{
+	border: 1px solid var(--secondary-color);
+	border-radius: 4px;
+}
+.fa-compass{
+	padding: 9px 10px 10px 12px;
+}
+.fa-phone{
+	padding: 11px;
+}
+.fa-mobile{
+	padding: 10px 10px 12px 18px;
+}
+.fa-envelope{
+	padding: 10px;
+}
+.contactusheading{
+	font-family: calibri;
+	font-weight: 300;
+	color: var(--primary-color);
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.contactus ul{
+	list-style: none;
+}
+.contactus ul li {
+	font-family: calibri;
+
+}
+.col-md-5{
+	background: var(--secondary-color);
+	color: white;
+	border-radius: 5px;
+}
+.col-md-5 h4{
+	font-family: calibri;
+	font-weight: 300;
+}
+.col-md-5 .form .form-group input{
+	margin:15px 0px 15px 0px;
+}
+.form{
+	font-family: calibri;
+}
+.form .form-group label{
+	font-family: calibri;
+	font-weight: 100;
+
+}
+.form .btn{
+	background: white;
+	color: var(--secondary-color);
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+

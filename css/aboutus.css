@@ -1,0 +1,93 @@
+body{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+:root{
+    --primary-color: #2B615B;
+      --secondary-color: #30736C;
+      font-family: colibri;
+      
+}
+.aboutus{
+	font-family: calibri;
+}
+.aboutus .aboutusheading{
+	font-family: calibri;
+	font-size: 26px;
+	font-weight: 300;
+	color: var(--primary-color);
+}
+.aboutus .col-md-7{
+	background: var(--primary-color);
+	color: white;
+	border-radius: 5px;
+	padding: 20px;
+}
+.abouttext img{
+	width: 500px;
+	height: 400px;
+	border-radius: 5px;
+}
+.principleheading{
+	font-family: calibri;
+	font-weight: 300;
+}
+.abouttext p{
+	padding: 20px 20px 10px 20px;
+	font-family: calibri;
+	font-size: 16px;
+	font-weight: 100;
+}
+.missionvissionheading{
+	font-family: calibri;
+	font-weight: 300;
+	color: var(--primary-color);
+
+}
+.missionheading {
+	font-family: calibri;
+	font-weight: 300;
+
+}
+.ourmission p {
+	font-family: calibri;
+	font-weight: 100;
+
+}
+.ourmission{
+	background: var(--secondary-color);
+	color: white;
+	border-radius: 5px;
+	padding: 20px;
+	margin:1px;
+
+}
+.ourmission:hover {
+  background: var(--primary-color);
+
+}
+.vissionheading{
+	font-family: calibri;
+	font-weight: 300;
+}
+.ourvission{
+	background: var(--primary-color);
+	color: white;
+	border-radius: 5px;
+	padding: 20px;
+	margin:1px;
+
+}
+
+.ourvission:hover{
+	background: var(--secondary-color);
+}
+.ourvission p {
+	font-family: calibri;
+	font-weight: 100;
+
+}
+
